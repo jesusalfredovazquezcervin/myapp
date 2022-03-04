@@ -54,6 +54,8 @@ GEM
     activerecord (7.0.2.2)
       activemodel (= 7.0.2.2)
       activesupport (= 7.0.2.2)
+    activerecord-mysql2-adapter (0.0.3)
+      mysql2
     activestorage (7.0.2.2)
       actionpack (= 7.0.2.2)
       activejob (= 7.0.2.2)
@@ -134,6 +136,7 @@ GEM
     mini_portile2 (2.8.0)
     minitest (5.15.0)
     msgpack (1.4.5)
+    mysql2 (0.5.3)
     net-imap (0.2.3)
       digest
       net-protocol
@@ -246,6 +249,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  activerecord-mysql2-adapter
   bcrypt_pbkdf (~> 1.0, < 2.0)
   bootsnap
   capistrano (~> 3.11)
