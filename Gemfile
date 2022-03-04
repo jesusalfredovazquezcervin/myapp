@@ -78,4 +78,4 @@ gem 'ed25519', '~>1.2', '< 2.0'
 gem 'bcrypt_pbkdf', '~> 1.0', '< 2.0'
 gem "io-wait", "0.2.0"
 gem "strscan", "3.0.1"
-gem 'activerecord-mysql2-adapter'
+gem 'mysql2', '~> 0.3.18'
